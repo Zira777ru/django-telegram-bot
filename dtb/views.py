@@ -19,7 +19,7 @@ def process_telegram_event(update_json):
 
 
 def index(request):
-    return JsonResponse({"error": "Hello, World!"})
+    return JsonResponse({"error": "Hello, Wise Wealth!"})
 
 
 class TelegramBotWebhookView(View):
